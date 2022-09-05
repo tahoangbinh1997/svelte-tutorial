@@ -29,7 +29,7 @@
 <style>
 	.parallax-container {
 		position: fixed;
-		width: 3000px;
+		width: 2400px;
 		height: 100vh;
 		left: 50%;
 		transform: translate(-50%,0);
