@@ -1,7 +1,7 @@
-<script>
-	const layers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+<script lang="ts">
+	const layers: Array<number> = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
-	let y;
+	let y: number;
 </script>
 
 <svelte:window bind:scrollY={y}/>
