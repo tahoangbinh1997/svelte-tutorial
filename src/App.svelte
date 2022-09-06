@@ -21,6 +21,7 @@
 import ElementHoverList from './components/ElementHoverList.svelte';
 import FolderContainer from './components/Folder/FolderContainer.svelte';
 import BackgroundTransition from './components/BackgroundTransition.svelte';
+import Parallax from './components/Parallax.svelte';
 
 	export let name: string;
 	export const src = 'favicon.png';
@@ -71,8 +72,9 @@ import BackgroundTransition from './components/BackgroundTransition.svelte';
 	<ElementHoverList/>
 	<FolderContainer/>
 </main> -->
-<BackgroundTransition/>
+<!-- <BackgroundTransition/> -->
 <!-- <MiniChat/> -->
+<Parallax/>
 
 <style type="text/scss">
 	main {
